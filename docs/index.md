@@ -10,16 +10,10 @@ technologies:
 
 ### Quick Start
 
-The current development version is **{{site.tucoVersion}}** for **Scala {{site.scalaVersions}}** with
-
-- [**cats**](http://typelevel.org/cats/) {{site.catsVersion}}
-- [**cats-effect**](http://typelevel.org/cats/) {{site.catsEffectVersion}}
-- [**decline**](https://github.com/bkirwi/decline) {{site.declineVersion}}
-- [**monocle**](http://julien-truffaut.github.io/Monocle/) {{site.monocleVersion}}
+The current development version is **{{site.repoVersion}}** for **Scala {{site.scalaVersions}}** with
 
 Add the dependency to your `build.sbt` thus:
 
 ```scala
-libraryDependencies += "org.tpolecat" %% "tuco-core"  % "{{site.tucoVersion}}" // either this
-libraryDependencies += "org.tpolecat" %% "tuco-shell" % "{{site.tucoVersion}}" // or this, which includes the shell API
+libraryDependencies += "org.foo" %% "bar"  % "{{site.repoVersion}}" 
 ```
