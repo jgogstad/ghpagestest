@@ -29,17 +29,17 @@ function prepareIdxAndDocMap() {
   const docs = [  
     {
       "title": "GCS",
-      "url": "/src/main/docs/stores/gcs.html",
+      "url": "/ghpagestest/src/main/docs/stores/gcs.html",
       "content": "GCS Google"
     } ,    
     {
       "title": "Guide",
-      "url": "/src/main/docs/guide.html",
+      "url": "/ghpagestest/src/main/docs/guide.html",
       "content": "This is a guide See gcs"
     } ,    
     {
       "title": "Home",
-      "url": "/src/main/docs/",
+      "url": "/ghpagestest/src/main/docs/",
       "content": "Quick Start The current development version is {{site.repoVersion}} for Scala {{site.scalaVersions}} with Add the dependency to your build.sbt thus: libraryDependencies += \"org.foo\" %% \"bar\" % \"{{site.repoVersion}}\" foo"
     } ,        
   ];
