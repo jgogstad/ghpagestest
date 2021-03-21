@@ -29,7 +29,7 @@ function prepareIdxAndDocMap() {
   const docs = [  
     {
       "title": "Home",
-      "url": "/",
+      "url": "/ghpagestest/",
       "content": "Quick Start The current development version is {{site.repoVersion}} for Scala {{site.scalaVersions}} with Add the dependency to your build.sbt thus: libraryDependencies += \"org.foo\" %% \"bar\" % \"{{site.repoVersion}}\" foo"
     } ,        
   ];
