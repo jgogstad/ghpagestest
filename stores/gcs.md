@@ -1,3 +1,0 @@
-# GCS
-
-* Google
