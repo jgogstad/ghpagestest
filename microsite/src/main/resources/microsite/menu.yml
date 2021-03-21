@@ -1,0 +1,19 @@
+options:
+
+  - title: Guide
+    url: docs/guide.html
+
+  - title: Stores
+    url: docs/stores.html
+
+    nested_options:
+      - title: S3
+        url: stores/s3.html
+      - title: GCS
+        url: stores/gcs.html
+      - title: Azure
+        url: stores/azure.html
+      - title: SFTP
+        url: stores/sftp.html
+      - title: Box
+        url: stores/box.html

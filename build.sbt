@@ -10,13 +10,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "ghpagestest",
     libraryDependencies += scalaTest % Test,
-    micrositeConfigYaml := ConfigYml(
-      yamlCustomProperties = Map(
-        "repoVersion"       -> version.value,
-        "scalaVersions"     -> crossScalaVersions.value.flatMap(CrossVersion.partialVersion).map(_._2).mkString("2.", "/", "") // 2.11/12
-      )
-    )
-  )
-  .enablePlugins(MicrositesPlugin)
+  ).aggregate(microsite)
+
+lazy val microsite = project.enablePlugins(MicrositesPlugin, MdocPlugin)
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
