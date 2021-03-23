@@ -5,4 +5,4 @@ title: Guide
 
 # This is a guide
 
-See [gcs](stores/gcs.md)
+See [gcs](../stores/gcs.html)

@@ -1,7 +1,7 @@
 ---
 layout: home
-title:  "Home"
-section: "home"
+title:  Home
+section: home
 ---
 
 ### Quick Start

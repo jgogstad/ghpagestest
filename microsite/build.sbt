@@ -6,8 +6,10 @@ micrositeAuthor           := "Jostein Gogstad"
 micrositeGithubOwner      := "jgogstad"
 micrositeGithubRepo       := "ghpagestest"
 //micrositeBaseUrl          := "/ghpagestest"
-//micrositeDocumentationUrl := "/ghpagestest/docs/"
+micrositeDocumentationUrl := "/documentation/guide"
+micrositeHighlightTheme := "Stackoverflow Light"
 aggregate in doc := true
+mdocIn := sourceDirectory.value / "main" / "markdown"
 
 
 micrositeConfigYaml := ConfigYml(

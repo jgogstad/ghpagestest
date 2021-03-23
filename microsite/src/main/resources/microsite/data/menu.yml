@@ -1,20 +1,23 @@
 options:
 
   - title: Guide
-    url: docs/guide.html
+    url: documentation/guide
+
+  - title: Data model
+    url: documentation/data-model
 
   - title: Stores
-    url: docs/stores.html
+    url: documentation/stores/
     menu_section: stores
-
     nested_options:
-      - title: S3
-        url: stores/s3.html
       - title: GCS
-        url: stores/gcs.html
-      - title: Azure
-        url: stores/azure.html
-      - title: SFTP
-        url: stores/sftp.html
-      - title: Box
-        url: stores/box.html
+        url: documentation/stores/gcs.html
+        menu_section: stores
+#      - title: S3
+#        url: documentation/stores/s3
+#      - title: Azure
+#        url: documentation/stores/azure
+#      - title: SFTP
+#        url: documentation/stores/sftp
+#      - title: Box
+#        url: documentation/stores/box
