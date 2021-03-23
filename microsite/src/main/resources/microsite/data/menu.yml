@@ -5,6 +5,7 @@ options:
 
   - title: Stores
     url: docs/stores.html
+    menu_section: stores
 
     nested_options:
       - title: S3

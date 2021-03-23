@@ -3,10 +3,10 @@ import microsites.ConfigYml
 micrositeName             := "ghpages-name"
 micrositeDescription      := "a description goes here"
 micrositeAuthor           := "Jostein Gogstad"
-micrositeGithubOwner := "jgogstad"
-micrositeGithubRepo := "ghpagestest"
-micrositeBaseUrl          := "/ghpagestest"
-micrositeDocumentationUrl := "/ghpagestest/docs/"
+micrositeGithubOwner      := "jgogstad"
+micrositeGithubRepo       := "ghpagestest"
+//micrositeBaseUrl          := "/ghpagestest"
+//micrositeDocumentationUrl := "/ghpagestest/docs/"
 aggregate in doc := true
 
 
