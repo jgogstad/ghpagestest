@@ -26,22 +26,7 @@ var idx = null
 const docMap = new Map()
 
 function prepareIdxAndDocMap() {
-  const docs = [  
-    {
-      "title": "GCS",
-      "url": "/ghpagestest/stores/gcs.html",
-      "content": "GCS Google"
-    } ,    
-    {
-      "title": "Guide",
-      "url": "/ghpagestest/guide.html",
-      "content": "This is a guide See gcs"
-    } ,    
-    {
-      "title": "Home",
-      "url": "/ghpagestest/",
-      "content": "Quick Start The current development version is {{site.repoVersion}} for Scala {{site.scalaVersions}} with Add the dependency to your build.sbt thus: libraryDependencies += \"org.foo\" %% \"bar\" % \"{{site.repoVersion}}\" foo"
-    } ,        
+  const docs = [
   ];
 
   idx = lunr(function () {
